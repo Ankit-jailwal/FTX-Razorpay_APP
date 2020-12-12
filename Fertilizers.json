@@ -1,4 +1,4 @@
-"Data" : [
+{"Data" : [
         {
         "Fertilizer ID": "2001",
         "Fertilizer Name": "Ammonium Sulphate",
@@ -199,4 +199,4 @@
         "Seller name": "Harsh Vardhan",
         "Seller Address": "Pilibhit, UP"
     }
-]
+]}
