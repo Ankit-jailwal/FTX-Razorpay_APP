@@ -56,6 +56,44 @@ def tools():
     
     
     return (file)
+@app.route("/sell",methods=["POST"])
+
+def sell():
+    data=request.get_json(force=True)
+    base64_img=str(data['base64'])
+    file_name=data["ID"]
+    with open(file_name,'wb') as f:
+        f.write(base64.b64decode(base64_img))
+    prd_name = data["product_name"]
+    description = data["description"]
+    qty = data["quantity"]
+    amt = data["amount"]
+    print(qty)
+    
+    
+    Prod_Sell = {}
+    Prod_Sell["Image_path"] = file_name
+    Prod_Sell["Item"] = prd_name
+    Prod_Sell["Description"] = description
+    Prod_Sell["Quantity"] = qty
+    Prod_Sell["Amount"] = amt
+    
+    output = json.dumps(Prod_Sell)
+    with open("Products.json","w") as sout:
+        sout.write(output)
+    
+    with open("Products.json") as read_it: 
+         data_in = json.load(read_it) 
+    #print(data_in)
+          
+    field_names = ["Image_path", "Item", "Description", "Quantity", "Amount"]
+    with open ("Products.csv", "a+") as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames = field_names)
+        #writer.writeheader()
+        writer.writerow(data_in)
+    csvfile.close()
+    
+    return data_in
 
 
 
