@@ -1,5 +1,5 @@
-{
-    "3001": {
+"Data":[
+    {
         "Pestiside ID": "3001",
         "Pestiside Name": "Pyrethrin Insecticide ",
         "Cost": "RS 1245",
@@ -9,7 +9,7 @@
         "Seller Name": "Santi Devi",
         "Seller Address": "Nagpur,UP"
     },
-    "3003": {
+    {
         "Pestiside ID": "3003",
         "Pestiside Name": "Spring Ever",
         "Cost": "Rs 382",
@@ -19,7 +19,7 @@
         "Seller Name": "Prem Lata",
         "Seller Address": "Agra,UP"
     },
-    "3004": {
+    {
         "Pestiside ID": "3004",
         "Pestiside Name": "Spring Flower",
         "Cost": "Rs 635",
@@ -29,7 +29,7 @@
         "Seller Name": "Shubhau",
         "Seller Address": "Baksar,UP"
     },
-    "3005": {
+    {
         "Pestiside ID": "3005",
         "Pestiside Name": "Katyayani Weed Killer Liquid",
         "Cost": "Rs 445",
@@ -39,7 +39,7 @@
         "Seller Name": "Sharda Singh",
         "Seller Address": "Ara,Bihar"
     },
-    "3006": {
+    {
         "Pestiside ID": "3006",
         "Pestiside Name": "Thripan",
         "Cost": "Rs 1590",
@@ -49,4 +49,4 @@
         "Seller Name": "Madhu Lata",
         "Seller Address": "Ranchi, JKarkhand"
     }
-}
+]
