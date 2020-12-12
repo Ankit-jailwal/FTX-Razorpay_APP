@@ -1,5 +1,5 @@
-{
-    "2001": {
+"Data" : [
+        {
         "Fertilizer ID": "2001",
         "Fertilizer Name": "Ammonium Sulphate",
         "Cost": "75/kg",
@@ -9,7 +9,7 @@
         "Seller name": "Lakshami Devi",
         "Seller Address": "Bhurarani, Uttrakhand"
     },
-    "2002": {
+    {
         "Fertilizer ID": "2002",
         "Fertilizer Name": "Urea (46% N) (While free flowing)",
         "Cost": "54/kg",
@@ -19,7 +19,7 @@
         "Seller name": "Lal Bahadur",
         "Seller Address": "Sector-46,Delhi"
     },
-    "2003": {
+    {
         "Fertilizer ID": "2003",
         "Fertilizer Name": "Urea (coated) (45% N) (While free flowing)",
         "Cost": "65/kg",
@@ -29,7 +29,7 @@
         "Seller name": "Raunak Birla",
         "Seller Address": "Delhi"
     },
-    "2004": {
+    {
         "Fertilizer ID": "2004",
         "Fertilizer Name": "Ammonium Chloride",
         "Cost": "80/kg",
@@ -39,7 +39,7 @@
         "Seller name": "Saumya Shree",
         "Seller Address": "Kirathpur,Ambala"
     },
-    "2005": {
+    {
         "Fertilizer ID": "2005",
         "Fertilizer Name": "Calcium Ammonium Nitrate (25% N)",
         "Cost": "54/kg",
@@ -49,7 +49,7 @@
         "Seller name": "Mehul sethi",
         "Seller Address": "Sidkul Plot no.78"
     },
-    "2006": {
+    {
         "Fertilizer ID": "2006",
         "Fertilizer Name": "Calcium Ammonium Nitrate (26% N)",
         "Cost": "95/kg",
@@ -59,7 +59,7 @@
         "Seller name": "Anmol Kalra",
         "Seller Address": "Patna "
     },
-    "2007": {
+    {
         "Fertilizer ID": "2007",
         "Fertilizer Name": "Anhydrous Ammonia",
         "Cost": "105/kg",
@@ -69,7 +69,7 @@
         "Seller name": "Nidhi Singh",
         "Seller Address": "Haldwani"
     },
-    "2008": {
+    {
         "Fertilizer ID": "2008",
         "Fertilizer Name": "Urea Super Granulated",
         "Cost": "65/kg",
@@ -79,7 +79,7 @@
         "Seller name": "Arun kalra",
         "Seller Address": "Sahrasa, Patna"
     },
-    "2009": {
+    {
         "Fertilizer ID": "2009",
         "Fertilizer Name": "Urea (Granular)",
         "Cost": "154/kg",
@@ -89,7 +89,7 @@
         "Seller name": "V.K Tiwari",
         "Seller Address": "Lakhimpur khiri, UP"
     },
-    "2010": {
+    {
         "Fertilizer ID": "2010",
         "Fertilizer Name": "Urea Ammonium Nitrate (32%) (Liquid)",
         "Cost": "145/kg",
@@ -99,7 +99,7 @@
         "Seller name": "tejashvi Yadav",
         "Seller Address": "Adarsh colony, UP"
     },
-    "2011": {
+    {
         "Fertilizer ID": "2011",
         "Fertilizer Name": "Neem Coated Urea",
         "Cost": "69/kg",
@@ -109,7 +109,7 @@
         "Seller name": "Nisha devi",
         "Seller Address": "Baksar,Bihar"
     },
-    "2012": {
+    {
         "Fertilizer ID": "2012",
         "Fertilizer Name": "Single Superphosphate (16% P2O 5  Powdered)",
         "Cost": "94/kg",
@@ -119,7 +119,7 @@
         "Seller name": "Nishant Kumar",
         "Seller Address": "Patliputra, Bihar"
     },
-    "2013": {
+    {
         "Fertilizer ID": "2013",
         "Fertilizer Name": "Omitted",
         "Cost": "54/kg",
@@ -129,7 +129,7 @@
         "Seller name": "Sahil",
         "Seller Address": "Singh colony , Uttrakhand"
     },
-    "2014": {
+    {
         "Fertilizer ID": "2014",
         "Fertilizer Name": "Triple Superphosphate",
         "Cost": "132/kg",
@@ -139,7 +139,7 @@
         "Seller name": "Anmol Mital",
         "Seller Address": "Tilak nagar , Uttrakhand"
     },
-    "2015": {
+    {
         "Fertilizer ID": "2015",
         "Fertilizer Name": "Bone meal, Raw",
         "Cost": "256/kg",
@@ -149,7 +149,7 @@
         "Seller name": "Sakuntal Shree",
         "Seller Address": "Subhash nagar, New Delhi"
     },
-    "2016": {
+    {
         "Fertilizer ID": "2016",
         "Fertilizer Name": "Bone meal, Steamed",
         "Cost": "245/kg",
@@ -159,7 +159,7 @@
         "Seller name": "Gita Devi",
         "Seller Address": "Shiv nagar, Delhi"
     },
-    "2017": {
+    {
         "Fertilizer ID": "2017",
         "Fertilizer Name": "Rockphosphate",
         "Cost": "200/kg",
@@ -169,7 +169,7 @@
         "Seller name": "Seema Singh",
         "Seller Address": "Danpur , UP"
     },
-    "2018": {
+    {
         "Fertilizer ID": "2018",
         "Fertilizer Name": "Single Superphosphate (16% P2O 5  Granulated)",
         "Cost": "75/kg",
@@ -179,7 +179,7 @@
         "Seller name": "Shalu Devi",
         "Seller Address": "Rampura, UP"
     },
-    "2019": {
+    {
         "Fertilizer ID": "2019",
         "Fertilizer Name": "Superphosphoric Acid (70% P2O 5  ) (Liquid)",
         "Cost": "99/kg",
@@ -189,7 +189,7 @@
         "Seller name": "Rashmi Singh",
         "Seller Address": "Kashipur, Uttrakhand"
     },
-    "2020": {
+    {
         "Fertilizer ID": "2020",
         "Fertilizer Name": "Potassium Sulphate",
         "Cost": "64/kg",
@@ -199,4 +199,4 @@
         "Seller name": "Harsh Vardhan",
         "Seller Address": "Pilibhit, UP"
     }
-}
+]
