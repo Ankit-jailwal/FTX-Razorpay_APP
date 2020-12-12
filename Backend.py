@@ -97,7 +97,7 @@ def sell():
 
 @app.route("/rent",methods=["POST"])
 
-def sell():
+def rent():
     data=request.get_json(force=True)
     base64_img=str(data['base64'])
     file_name=data["ID"]
