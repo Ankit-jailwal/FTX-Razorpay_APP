@@ -20,10 +20,10 @@ from flask import Flask
 app = Flask(__name__)
 
 
-@app.route('/', methods = ["POST"])
+@app.route('/Tools', methods = ["POST"])
 def products():
     #data = request.get_json(force = "true")
-    with open(r"/home/rashi/Downloads/Tools.json") as f:
+    with open("Tools.json") as f:
         file = json.load(f)
     
     
