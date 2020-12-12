@@ -80,7 +80,7 @@ def sell():
     field_names = ["Image_path", "Item", "Description", "Quantity", "Amount"]
     with open ("Products.csv", "a+") as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames = field_names)
-        writer.writeheader()
+        #writer.writeheader()
         writer.writerow(data_in)
     csvfile.close()
     
@@ -119,7 +119,7 @@ def rent():
     field_name = ["Image_path", "Item", "Description", "Quantity", "Amount"]
     with open ("Products_rent.csv", "a+") as csv_file:
         writers = csv.DictWriter(csv_file, fieldnames = field_name)
-        writers.writeheader()
+        #writers.writeheader()
         writers.writerow(data_ins)
     csv_file.close()
     
