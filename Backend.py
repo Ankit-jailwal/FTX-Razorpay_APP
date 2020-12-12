@@ -95,7 +95,7 @@ def sell():
     
     return data_in
 
-@app.route("/sell",methods=["POST"])
+@app.route("/rent",methods=["POST"])
 
 def sell():
     data=request.get_json(force=True)
