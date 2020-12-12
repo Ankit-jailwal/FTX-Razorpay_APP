@@ -9,13 +9,7 @@ Created on Sat Dec 12 21:22:22 2020
 import json
 from flask import Flask,request,jsonify,Response, render_template, url_for
 import base64
-import numpy as np
-import imageio
-from matplotlib.pyplot import imshow
-from keras.preprocessing import image
-from types import SimpleNamespace 
 import pandas as pd
-import joblib
 import csv
 import requests
 
@@ -25,7 +19,6 @@ app = Flask(__name__)
 
 @app.route('/fertilizers', methods = ["GET"])
 def fertilizers():
-    #data = request.get_json(force = "true")
     with open("Fertilizers.json") as f:
         file = json.load(f)
     
@@ -33,7 +26,6 @@ def fertilizers():
     return (file)
 @app.route('/pesticides', methods = ["GET"])
 def pesticides():
-    #data = request.get_json(force = "true")
     with open("Pesticides.json") as f:
         file = json.load(f)
     
@@ -42,7 +34,6 @@ def pesticides():
 
 @app.route('/seed', methods = ["GET"])
 def seed():
-    #data = request.get_json(force = "true")
     with open("Seed.json") as f:
         file = json.load(f)
     
@@ -51,7 +42,6 @@ def seed():
 
 @app.route('/tools', methods = ["GET"])
 def tools():
-    #data = request.get_json(force = "true")
     with open("Tools.json") as f:
         file = json.load(f)
     
@@ -69,7 +59,7 @@ def sell():
     description = data["description"]
     qty = data["quantity"]
     amt = data["amount"]
-    print(qty)
+    #print(qty)
     
     
     Prod_Sell = {}
@@ -90,7 +80,7 @@ def sell():
     field_names = ["Image_path", "Item", "Description", "Quantity", "Amount"]
     with open ("Products.csv", "a+") as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames = field_names)
-        #writer.writeheader()
+        writer.writeheader()
         writer.writerow(data_in)
     csvfile.close()
     
@@ -108,7 +98,7 @@ def rent():
     description = data["description"]
     qty = data["quantity"]
     amt = data["amount"]
-    print(qty)
+    #print(qty)
     
     
     Prod_Rent = {}
@@ -129,7 +119,7 @@ def rent():
     field_name = ["Image_path", "Item", "Description", "Quantity", "Amount"]
     with open ("Products_rent.csv", "a+") as csv_file:
         writers = csv.DictWriter(csv_file, fieldnames = field_name)
-        #writer.writeheader()
+        writer.writeheader()
         writers.writerow(data_ins)
     csv_file.close()
     
