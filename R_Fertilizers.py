@@ -22,7 +22,7 @@ from flask import Flask
 app = Flask(__name__)
 
 
-@app.route('/Fertilizers', methods = ["POST"])
+@app.route('/Fertilizers', methods = ["GET"])
 def products():
     #data = request.get_json(force = "true")
     with open("Fertilizers.json") as f:
