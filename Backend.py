@@ -25,7 +25,7 @@ app = Flask(__name__)
 @app.route('/fertilizers', methods = ["GET"])
 def fertilizers():
     #data = request.get_json(force = "true")
-    with open(r"/home/shivam/FTX-Razorpay_APP/Fertilizers.json") as f:
+    with open("Fertilizers.json") as f:
         file = json.load(f)
     
     
@@ -33,7 +33,7 @@ def fertilizers():
 @app.route('/pesticides', methods = ["GET"])
 def pesticides():
     #data = request.get_json(force = "true")
-    with open(r"/home/shivam/FTX-Razorpay_APP/Pesticides.json") as f:
+    with open("Pesticides.json") as f:
         file = json.load(f)
     
     
@@ -42,7 +42,7 @@ def pesticides():
 @app.route('/seed', methods = ["GET"])
 def seed():
     #data = request.get_json(force = "true")
-    with open(r"/home/shivam/FTX-Razorpay_APP/Seed.json") as f:
+    with open("Seed.json") as f:
         file = json.load(f)
     
     
@@ -51,7 +51,7 @@ def seed():
 @app.route('/tools', methods = ["GET"])
 def tools():
     #data = request.get_json(force = "true")
-    with open(r"/home/shivam/FTX-Razorpay_APP/Tools.json") as f:
+    with open("Tools.json") as f:
         file = json.load(f)
     
     
