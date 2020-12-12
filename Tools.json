@@ -1,5 +1,5 @@
-{
-    "4001": {
+"Data":[
+    {
         "Tool Id": "4001",
         "Tools Name": "Baaz Manual Lawn Mower",
         "Cost": "Rs 4599",
@@ -9,7 +9,7 @@
         "Seller Name": "Rajat Singh",
         "Seller Address": "Noida,UP"
     },
-    "4002": {
+    {
         "Tool Id": "4002",
         "Tools Name": "Falcon Electric Lawn Mower ",
         "Cost": "Rs 34999",
@@ -19,7 +19,7 @@
         "Seller Name": "Aniket ",
         "Seller Address": "Baksar,Bihar"
     },
-    "4003": {
+    {
         "Tool Id": "4003",
         "Tools Name": "Mini Fogging Machine",
         "Cost": "Rs 9499",
@@ -29,7 +29,7 @@
         "Seller Name": "Ramu Yadav",
         "Seller Address": "Vishakhapatnm,AP"
     },
-    "4004": {
+    {
         "Tool Id": "4004",
         "Tools Name": "RAjagro Manual Pressure Sprayer",
         "Cost": "Rs 190",
@@ -39,7 +39,7 @@
         "Seller Name": "Seema Yadav",
         "Seller Address": "Sonpur, Bihar"
     },
-    "4005": {
+    {
         "Tool Id": "4005",
         "Tools Name": "Mini Chaff Cutter",
         "Cost": "Rs 24750",
@@ -49,7 +49,7 @@
         "Seller Name": "Ravi Maurya",
         "Seller Address": "Pune,Maharasta"
     },
-    "4006": {
+    {
         "Tool Id": "4006",
         "Tools Name": "Wooden Handle Steel Hedge Shear",
         "Cost": "Rs 730",
@@ -59,7 +59,7 @@
         "Seller Name": "Sita Raman",
         "Seller Address": "Merath,UP"
     },
-    "4007": {
+    {
         "Tool Id": "4007",
         "Tools Name": "Steel Hamd Weeder",
         "Cost": "Rs 200",
@@ -69,7 +69,7 @@
         "Seller Name": "Harshit Mehta",
         "Seller Address": "Minipal,Karnataka"
     },
-    "4008": {
+    {
         "Tool Id": "4008",
         "Tools Name": "Khurpa",
         "Cost": "Rs 125",
@@ -79,7 +79,7 @@
         "Seller Name": "Raju Singh",
         "Seller Address": "Amravati,AP"
     },
-    "4009": {
+    {
         "Tool Id": "4009",
         "Tools Name": "Hand Digging Trowel",
         "Cost": "Rs 100",
@@ -89,7 +89,7 @@
         "Seller Name": "Arjun Singh",
         "Seller Address": "Vizag, AP"
     },
-    "4010": {
+    {
         "Tool Id": "4010",
         "Tools Name": "Steel Secateurs",
         "Cost": "Rs 575",
@@ -99,7 +99,7 @@
         "Seller Name": "Advani Singh",
         "Seller Address": "Noida, UP"
     },
-    "4011": {
+    {
         "Tool Id": "4011",
         "Tools Name": "Hand Cultivator",
         "Cost": "Rs 125",
@@ -109,7 +109,7 @@
         "Seller Name": "Piyush Goyel",
         "Seller Address": "Delhi"
     },
-    "4012": {
+    {
         "Tool Id": "4012",
         "Tools Name": "Electric Grass Timmer",
         "Cost": "Rs 9499",
@@ -119,7 +119,7 @@
         "Seller Name": "Amit Singh",
         "Seller Address": "Baksar,Bihar"
     },
-    "4013": {
+    {
         "Tool Id": "4013",
         "Tools Name": "Steel Regular Pruning ",
         "Cost": "Rs 375",
@@ -129,7 +129,7 @@
         "Seller Name": "Nitish Kumar",
         "Seller Address": "Patna, Bihar"
     },
-    "4014": {
+    {
         "Tool Id": "4014",
         "Tools Name": "Brass Sprinkler",
         "Cost": "Rs 600",
@@ -139,4 +139,4 @@
         "Seller Name": "Sidhi Singh",
         "Seller Address": "Ara,Bihar"
     }
-}
+]
