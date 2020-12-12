@@ -119,7 +119,7 @@ def rent():
     field_name = ["Image_path", "Item", "Description", "Quantity", "Amount"]
     with open ("Products_rent.csv", "a+") as csv_file:
         writers = csv.DictWriter(csv_file, fieldnames = field_name)
-        writer.writeheader()
+        writers.writeheader()
         writers.writerow(data_ins)
     csv_file.close()
     
