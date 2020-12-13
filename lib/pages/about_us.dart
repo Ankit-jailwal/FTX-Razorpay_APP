@@ -10,7 +10,7 @@ class about_us extends StatelessWidget with DrawerStates {
   String emails = "shivamaawarn15@gmail.com";
   String emailr = "rashisrivastava2001@gmail.com";
   String url = "https://openweathermap.org/api";
-  String urlg = "https://github.com/Rashi-Srivastava/Maati-.git";
+  String urlg = "https://github.com/Rashi-Srivastava/FTX-Razorpay_APP";
   String emailri="ritikaranjanpatna@gmail.com";
   String emailra="rajatsingh1603@gmail.com";
   String url_razor="https://razorpay.com/docs/api/";
