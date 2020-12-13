@@ -11,6 +11,9 @@ class about_us extends StatelessWidget with DrawerStates {
   String emailr = "rashisrivastava2001@gmail.com";
   String url = "https://openweathermap.org/api";
   String urlg = "https://github.com/Rashi-Srivastava/Maati-.git";
+  String emailri="ritikaranjanpatna@gmail.com";
+  String emailra="rajatsingh1603@gmail.com";
+  String url_razor="https://razorpay.com/docs/api/";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -52,6 +55,29 @@ class about_us extends StatelessWidget with DrawerStates {
               child: Center(
                 child: Text(
                   "https://openweathermap.org/api",
+                  style: TextStyle(
+                      color: Colors.white, fontWeight: FontWeight.bold),
+                ),
+              ),
+            ),
+          ),
+          SizedBox(
+            height: 20,
+          ),
+          Container(
+            height: 50,
+            width: 340,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
+              color: Colors.blue.withOpacity(0.6),
+            ),
+            child: FlatButton(
+              onPressed: () {
+                launch(url_razor);
+              },
+              child: Center(
+                child: Text(
+                  "https://razorpay.com/docs/api/",
                   style: TextStyle(
                       color: Colors.white, fontWeight: FontWeight.bold),
                 ),
@@ -128,6 +154,52 @@ class about_us extends StatelessWidget with DrawerStates {
               child: Center(
                 child: Text(
                   translations.text('contact.d3'),
+                  style: TextStyle(
+                      color: Colors.white, fontWeight: FontWeight.bold),
+                ),
+              ),
+            ),
+          ),
+          SizedBox(
+            height: 20,
+          ),
+          Container(
+            height: 50,
+            width: 340,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
+              color: Colors.green.withOpacity(0.6),
+            ),
+            child: FlatButton(
+              onPressed: () {
+                launch("mailto:$emailri");
+              },
+              child: Center(
+                child: Text(
+                  "Rajat Singh, IIIrd Semester, CSE, DIT",
+                  style: TextStyle(
+                      color: Colors.white, fontWeight: FontWeight.bold),
+                ),
+              ),
+            ),
+          ),
+          SizedBox(
+            height: 20,
+          ),
+          Container(
+            height: 50,
+            width: 340,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
+              color: Colors.green.withOpacity(0.6),
+            ),
+            child: FlatButton(
+              onPressed: () {
+                launch("mailto:$emailra");
+              },
+              child: Center(
+                child: Text(
+                  "Ritika Ranjan, IIIrd Semester, CSE, DIT",
                   style: TextStyle(
                       color: Colors.white, fontWeight: FontWeight.bold),
                 ),

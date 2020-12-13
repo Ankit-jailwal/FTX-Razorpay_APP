@@ -2,17 +2,19 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:giffy_dialog/giffy_dialog.dart';
 import 'package:ieeecrop/Language/translation/bloc/translation_bloc.dart';
 import 'package:ieeecrop/Language/translation/global_translation.dart';
 import 'package:ieeecrop/bloc/drawer_bloc.dart';
 import 'package:ieeecrop/custom-widgets/core/custom-app-bar.dart';
 import 'package:ieeecrop/main.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:ieeecrop/pages/Maati_shop.dart';
 import 'package:ieeecrop/pages/about_us.dart';
 import 'package:ieeecrop/pages/history.dart';
 import 'package:ieeecrop/pages/Main_menu.dart';
 import 'package:ieeecrop/pages/Profile_page.dart';
+import 'package:ieeecrop/pages/pestcide_screen.dart';
+import 'package:ieeecrop/pages/seed_screen.dart';
 import 'package:ieeecrop/pages/News_feed.dart';
 import 'package:ieeecrop/second_screen.dart';
 import 'package:ieeecrop/services/authentication-service.dart';
@@ -21,6 +23,8 @@ import '../Functions_and_route.dart';
 import '../Navigate_to_weather_api.dart';
 import 'bottom_sheet_shape.dart';
 import 'package:ieeecrop/pages/Maati_Cam.dart';
+import 'package:ieeecrop/pages/fertilizer_screen.dart';
+import 'package:ieeecrop/pages/tool_screen.dart';
 import 'drawer_item.dart';
 import 'package:animated_theme_switcher/animated_theme_switcher.dart';
 import 'package:line_awesome_flutter/line_awesome_flutter.dart';
@@ -34,52 +38,15 @@ class DrawerLayout extends StatefulWidget {
 class _HomePageState extends State<DrawerLayout> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-        child: FutureBuilder(
-      future: AuthenticationService().login(),
-      builder: (BuildContext context, AsyncSnapshot snapshot) {
-        if (snapshot.data == null) {
-          return Center(
-            child: CircularProgressIndicator(), //Circular progress indicator
-          );
-        } else if (snapshot.data['token'] != null) {
-          print(snapshot.data);
-          var rest = snapshot.data['token'] as String;
-          storage.write(
-              key: "jwt", value: rest); //Storing token in local storage
-          return MaterialApp(
-            debugShowCheckedModeBanner: false,
-            title: 'IEEE APP',
-            theme: ThemeProvider.of(context),
-            home: BlocProvider<DrawerBloc>(
-              create: (context) => DrawerBloc(),
-              child: Drawermain(),
-            ),
-          );
-        } else {
-          return NetworkGiffyDialog(
-            image: Image.network(
-              "https://media.giphy.com/media/l4pLY0zySvluEvr0c/giphy.gif",
-              fit: BoxFit.cover,
-            ),
-            entryAnimation: EntryAnimation.TOP_LEFT,
-            title: Text(
-              translations.text('login.er'),
-              textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 22.0, fontWeight: FontWeight.w600),
-            ),
-            description: Text(
-              translations.text('login.des'),
-              textAlign: TextAlign.center,
-            ),
-            onlyOkButton: true,
-            onOkButtonPressed: () {
-              Navigator.pop(context);
-            },
-          );
-        }
-      },
-    ));
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'IEEE APP',
+      theme: ThemeProvider.of(context),
+      home: BlocProvider<DrawerBloc>(
+        create: (context) => DrawerBloc(),
+        child: Drawermain(),
+      ),
+    );
   }
 }
 
@@ -248,12 +215,12 @@ class _DrawermainState extends State<Drawermain>
                           ),
                         ),
                         DrawerItem(
-                          text: translations.text('menu.b1'),
+                          text: "Maati Shop",
                           onPressed: () {
                             Navigator.pop(context);
                             BlocProvider.of<DrawerBloc>(context).add(
                                 DrawerEvents
-                                    .cam); //Drawer navigation to Event screen
+                                    .shop); //Drawer navigation to Event screen
                           },
                         ),
                         DrawerItem(
@@ -476,6 +443,26 @@ String findSelectedTitle(DrawerStates state) {
   } else if (state is Maati_news)
     return translations.text('menu.b2');
   else if (state is about_us) return translations.text('menu.b6');
+  else if(state is maati_shop)
+    {
+      return "Maati Shop";
+    }
+  else if(state is seed_screen)
+    {
+      return "Seeds";
+    }
+  else if(state is fertilizer_screen)
+  {
+    return "Fertilizers";
+  }
+  else if(state is pesticide_screen)
+  {
+    return "Pesticides";
+  }
+  else if(state is tool_screen)
+  {
+    return "Tools";
+  }
 }
 
 //Signout animation and functionality

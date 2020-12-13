@@ -1,13 +1,18 @@
 import 'package:bloc/bloc.dart';
+import 'package:ieeecrop/pages/Maati_shop.dart';
 import 'package:ieeecrop/pages/about_us.dart';
 import 'package:ieeecrop/pages/history.dart';
 import 'package:ieeecrop/pages/Profile_page.dart';
+import 'package:ieeecrop/pages/pestcide_screen.dart';
 import 'package:ieeecrop/pages/News_feed.dart';
 import 'package:ieeecrop/pages/Maati_Cam.dart';
 import 'package:ieeecrop/pages/Main_menu.dart';
+import 'package:ieeecrop/pages/fertilizer_screen.dart';
+import 'package:ieeecrop/pages/seed_screen.dart';
+import 'package:ieeecrop/pages/tool_screen.dart';
 import 'package:ieeecrop/Functions_and_route.dart';
 
-enum DrawerEvents { ProfileEvent, news, cam,menu,history,output,about}
+enum DrawerEvents { ProfileEvent, news, cam,menu,history,output,about,shop,seed,ferti,pest,tool}
 
 abstract class DrawerStates {}
 
@@ -39,6 +44,21 @@ class DrawerBloc extends Bloc<DrawerEvents, DrawerStates> {
         break;
       case DrawerEvents.about:
         yield about_us();
+        break;
+      case DrawerEvents.shop:
+        yield maati_shop();
+        break;
+      case DrawerEvents.ferti:
+        yield fertilizer_screen();
+        break;
+      case DrawerEvents.pest:
+        yield pesticide_screen();
+        break;
+      case DrawerEvents.seed:
+        yield seed_screen();
+        break;
+      case DrawerEvents.tool:
+        yield tool_screen();
         break;
     }
   }

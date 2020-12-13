@@ -28,9 +28,9 @@ class Main_menu_State extends State<Main_menu> {
 
 class Home extends StatelessWidget {
   Items item1 = new Items(
-    title: translations.text('menu.b1'),
+    title: "Maati Shop",
     subtitle: "",
-    img: "assets/images/camera.png",
+    img: "assets/shop.png",
     page:"main",  );
 
   Items item2 = new Items(
@@ -81,7 +81,7 @@ class Home extends StatelessWidget {
                 print("tapped");
                 if(data.page=="main") {
                   BlocProvider.of<DrawerBloc>(context).add(DrawerEvents
-                      .cam);
+                      .shop);
                 }
                 else if(data.page=="call")
                   {

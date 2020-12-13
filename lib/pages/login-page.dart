@@ -4,6 +4,7 @@ import 'package:giffy_dialog/giffy_dialog.dart';
 import 'package:ieeecrop/Animation/FadeAnimation.dart';
 import 'package:ieeecrop/Language/translation/global_translation.dart';
 import 'package:ieeecrop/main.dart';
+import 'package:ieeecrop/pages/Nav_page.dart';
 import 'package:ieeecrop/second_screen.dart';
 import 'package:ieeecrop/services/authentication-service.dart';
 
@@ -127,7 +128,7 @@ class _LoginPageState extends State<LoginPage> {
                                //print("$email $password");
                                storage.write(key: "email", value: email);
                                storage.write(key: "password", value: password);
-                               Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => mainpage()));
+                               Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => nav_page()));
 
                               },
                               child: Center(
