@@ -59,3 +59,15 @@ For convenience we are providing night mode
 
 ### Contact us :- 
 we giving our basic information at that page
+
+## API Used:-
+-Affordability
+
+-EPOs
+
+-Invoice
+
+-Payment button
+
+-Smart Collect
+
