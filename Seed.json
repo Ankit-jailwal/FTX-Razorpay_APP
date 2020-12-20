@@ -2,7 +2,7 @@
     {
         "Seed ID": "10001",
         "Seed Name": "Wheat ",
-        "Cost": "Rs 21",
+        "Cost": "21",
         "Image Code": "https://cdn.pixabay.com/photo/2011/08/17/12/52/wheat-8762_1280.jpg",
         "Desciption": "Usage/Application:  Agriculture   , Type: Natural",
         "Seller Id": "10245",
@@ -12,7 +12,7 @@
     {
         "Seed ID": "10002",
         "Seed Name": "paddy",
-        "Cost": "Rs 25",
+        "Cost": "25",
         "Image Code": "https://cdn.pixabay.com/photo/2020/04/09/06/04/rice-5019854_1280.jpg",
         "Desciption": "Usage/Application:  Agriculture   , Type: Natural",
         "Seller Id": "10542",
@@ -22,7 +22,7 @@
     {
         "Seed ID": "10003",
         "Seed Name": "Bajra",
-        "Cost": "RS 25",
+        "Cost": "25",
         "Image Code": "https://cdn.pixabay.com/photo/2020/06/21/10/11/bajra-5324228_1280.jpg",
         "Desciption": "Usage/Application:  Agriculture   , Type: Natural",
         "Seller Id": "10846",
@@ -32,7 +32,7 @@
     {
         "Seed ID": "10004",
         "Seed Name": "Jowar",
-        "Cost": "Rs 18",
+        "Cost": "18",
         "Image Code": "https://cdn.pixabay.com/photo/2014/02/26/13/20/sorghum-275258_1280.jpg",
         "Desciption": "Usage/Application:  Agriculture   , Type: Natural",
         "Seller Id": "10426",
@@ -72,7 +72,7 @@
     {
         "Seed ID": "10008",
         "Seed Name": "Banana",
-        "Cost": "198 - 100",
+        "Cost": "150",
         "Image Code": "https://images-na.ssl-images-amazon.com/images/I/51IDiX5APXL.jpg",
         "Desciption": "Usage/Application:  Agriculture   , Type: Natural",
         "Seller Id": "12456",
@@ -111,7 +111,7 @@
     },
     {
         "Seed ID": "10012",
-        "Seed Name": "Soyabeen",
+        "Seed Name": "Soyabean",
         "Cost": "37",
         "Image Code": "https://5.imimg.com/data5/SL/GS/MY-41125371/soybean-dal-500x500.jpg",
         "Desciption": "Usage/Application:  Agriculture   , Type: Natural",
@@ -153,7 +153,7 @@
         "Seed ID": "10016",
         "Seed Name": "Sunhemp",
         "Cost": "1500",
-        "Image Code": "https://www.dairyknowledge.in/sites/default/files/styles/medium_large/public/sun_heamp.jpg?itok=_zr7Naz0",
+        "Image Code": "https://cpimg.tistatic.com/03248628/b/4/Sunhemp-Seeds.jpg",
         "Desciption": "Usage/Application:  Agriculture   , Type: Natural",
         "Seller Id": "15587",
         "Seller name": "Mayank",
